@@ -3,7 +3,7 @@ FROM java:openjdk-8-jdk
 # FROM openjdk:alpine
 # 3.8.3 ee branch
 
-MAINTAINER Brandon Grantham <brandon.grantham@mulesoft.com>
+MAINTAINER Kulandaivel Ramalingam <ramkuvel@gmail.com>
 
 WORKDIR /opt
 RUN useradd --user-group --shell /bin/false mule && chown mule /opt 
